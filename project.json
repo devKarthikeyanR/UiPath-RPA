@@ -1,0 +1,36 @@
+{
+  "name": "TypeSecureStringV2",
+  "description": "Type Secure String",
+  "main": "TypeSecureString_V2.xaml",
+  "dependencies": {
+    "Type_Secure_String_Activity": "2.0.7",
+    "UiPath.Excel.Activities": "2.6.2",
+    "UiPath.Mail.Activities": "1.5.1",
+    "UiPath.System.Activities": "19.7.0",
+    "UiPath.UIAutomation.Activities": "19.7.0"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
